@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Joefrey Kibuule";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L526T6RLWS;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -503,10 +507,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L526T6RLWS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSKTimerView/JSKTimerView-Prefix.pch";
 				INFOPLIST_FILE = "JSKTimerView/JSKTimerView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isystematicapps.JSKTimerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f4fdfc7-01cd-4238-8f0c-230568c6a294";
+				PROVISIONING_PROFILE_SPECIFIER = "com.isystematicapps Development";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,10 +525,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L526T6RLWS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSKTimerView/JSKTimerView-Prefix.pch";
 				INFOPLIST_FILE = "JSKTimerView/JSKTimerView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isystematicapps.JSKTimerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f4fdfc7-01cd-4238-8f0c-230568c6a294";
+				PROVISIONING_PROFILE_SPECIFIER = "com.isystematicapps Development";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

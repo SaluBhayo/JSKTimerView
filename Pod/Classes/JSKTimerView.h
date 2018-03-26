@@ -81,7 +81,9 @@
  
  @warning This does *not* start the timer
  */
+
 - (void)setTimerWithDuration:(NSInteger)durationInSeconds;
+- (void)setTimerWithDuration:(NSInteger)durationInSeconds withTotalTime:(NSInteger)totalTime;
 
 /**
  Starts the timer.
@@ -95,6 +97,7 @@
  */
 - (void)startTimerWithDuration:(NSInteger)durationInSeconds;
 
+- (void)startTimerWithDuration:(NSInteger)durationInSeconds withTotalTime:(NSInteger)totalTime;
 
 /**
  Starts the timer with a given end date.
@@ -104,6 +107,7 @@
  @return Returns true if the given date is in the future
  */
 - (BOOL)startTimerWithEndDate:(NSDate *)endDate;
+- (BOOL)startTimerWithStartDate:(NSDate *)startDate andEndDate:(NSDate *)endDate;
 
 /**
  Pauses the timer.
@@ -142,5 +146,7 @@
  The start number of seconds in the timer
  */
 - (NSInteger)totalDurationInSeconds;
+
+-(void)setProgressColor:(UIColor *)progressColor withStrokeColor:(UIColor *)strokeColor;
 
 @end
